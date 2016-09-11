@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,8 +13,8 @@
 #include "qwt_scale_map.h"
 #include "qwt_scale_div.h"
 #include "qwt_math.h"
-#include <qpainter.h>
-#include <qpen.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpen.h>
 
 static inline bool qwtFuzzyGreaterOrEqual( double d1, double d2 )
 {

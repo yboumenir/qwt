@@ -12,12 +12,12 @@
 #include "qwt_scale_draw.h"
 #include "qwt_scale_map.h"
 #include "qwt_color_map.h"
-#include <qpainter.h>
-#include <qevent.h>
-#include <qdrawutil.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qmath.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qdrawutil.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtCore/qmath.h>
 
 static inline void qwtDrawLine( QPainter *painter, int pos, 
     const QColor &color, const QRect &pipeRect, const QRect &liquidRect,

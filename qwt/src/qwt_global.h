@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -6,11 +6,10 @@
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the Qwt License, Version 1.0
  *****************************************************************************/
-
 #ifndef QWT_GLOBAL_H
 #define QWT_GLOBAL_H
-
-#include <qglobal.h>
+#include <QtCore/qglobal.h>
+//#include <QtCore/qglobal.h>
 
 // QWT_VERSION is (major << 16) + (minor << 8) + patch.
 

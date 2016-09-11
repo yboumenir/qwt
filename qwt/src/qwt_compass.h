@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,8 +13,8 @@
 #include "qwt_global.h"
 #include "qwt_dial.h"
 #include "qwt_round_scale_draw.h"
-#include <qstring.h>
-#include <qmap.h>
+#include <QtCore/qstring.h>
+#include <QtCore/qmap.h>
 
 class QwtCompassRose;
 

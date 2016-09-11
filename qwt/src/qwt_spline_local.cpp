@@ -9,7 +9,7 @@
 
 #include "qwt_spline_local.h"
 #include "qwt_spline_parametrization.h"
-#include <qmath.h>
+#include <QtCore/qmath.h>
 
 static inline bool qwtIsStrictlyMonotonic( double dy1, double dy2 )
 {

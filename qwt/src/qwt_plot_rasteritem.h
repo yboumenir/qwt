@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,9 +13,9 @@
 #include "qwt_global.h"
 #include "qwt_plot_item.h"
 #include "qwt_interval.h"
-#include <qglobal.h>
-#include <qstring.h>
-#include <qimage.h>
+#include <QtCore/qglobal.h>
+#include <QtCore/qstring.h>
+#include <QtGui/qimage.h>
 
 /*!
   \brief A class, which displays raster data

@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,8 +11,8 @@
 #define QWT_EVENT_PATTERN 1
 
 #include "qwt_global.h"
-#include <qnamespace.h>
-#include <qvector.h>
+#include <QtCore/qnamespace.h>
+#include <QtCore/qvector.h>
 
 class QMouseEvent;
 class QKeyEvent;

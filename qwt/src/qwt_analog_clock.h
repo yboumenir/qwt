@@ -13,7 +13,7 @@
 #include "qwt_global.h"
 #include "qwt_dial.h"
 #include "qwt_dial_needle.h"
-#include <qdatetime.h>
+#include <QtCore/qdatetime.h>
 
 /*!
   \brief An analog clock

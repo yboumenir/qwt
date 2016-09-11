@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -9,8 +9,8 @@
 
 #include "qwt_plot_glcanvas.h"
 #include "qwt_plot.h"
-#include <qevent.h>
-#include <qglframebufferobject.h>
+#include <QtGui/qevent.h>
+#include <QtOpenGL/qglframebufferobject.h>
 
 class QwtPlotGLCanvas::PrivateData
 {

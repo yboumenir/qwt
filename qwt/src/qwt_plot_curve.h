@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -14,8 +14,8 @@
 #include "qwt_plot_seriesitem.h"
 #include "qwt_series_data.h"
 #include "qwt_text.h"
-#include <qpen.h>
-#include <qstring.h>
+#include <QtGui/qpen.h>
+#include <QtCore/qstring.h>
 
 class QPainter;
 class QPolygonF;

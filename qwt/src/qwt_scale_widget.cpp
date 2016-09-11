@@ -15,11 +15,11 @@
 #include "qwt_scale_div.h"
 #include "qwt_text.h"
 #include "qwt_scale_engine.h"
-#include <qpainter.h>
-#include <qevent.h>
-#include <qmath.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qevent.h>
+#include <QtCore/qmath.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
 
 class QwtScaleWidget::PrivateData
 {

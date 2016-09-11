@@ -12,7 +12,7 @@
 
 #include "qwt_global.h"
 #include "qwt_series_data.h"
-#include <qimage.h>
+#include <QtGui/qimage.h>
 
 class QwtScaleMap;
 class QPolygonF;

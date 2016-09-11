@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,14 +11,14 @@
 #include "qwt_painter.h"
 #include "qwt_scale_draw.h"
 #include "qwt_scale_map.h"
-#include <qevent.h>
-#include <qdrawutil.h>
-#include <qpainter.h>
-#include <qalgorithms.h>
-#include <qmath.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qapplication.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qdrawutil.h>
+#include <QtGui/qpainter.h>
+#include <QtCore/qalgorithms.h>
+#include <QtCore/qmath.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtWidgets/qapplication.h>
 
 static QSize qwtHandleSize( const QSize &size, 
     Qt::Orientation orientation, bool hasTrough )

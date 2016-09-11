@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,11 +10,11 @@
 #include "qwt_arrow_button.h"
 #include "qwt_math.h"
 #include "qwt_counter.h"
-#include <qlayout.h>
-#include <qlineedit.h>
-#include <qvalidator.h>
-#include <qevent.h>
-#include <qstyle.h>
+#include <QtWidgets/qlayout.h>
+#include <QtWidgets/qlineedit.h>
+#include <QtGui/qvalidator.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qstyle.h>
 
 class QwtCounter::PrivateData
 {

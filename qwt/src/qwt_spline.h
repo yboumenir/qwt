@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,9 +13,9 @@
 #include "qwt_global.h"
 #include "qwt_spline_approximation.h"
 #include "qwt_spline_polynomial.h"
-#include <qpolygon.h>
-#include <qpainterpath.h>
-#include <qmath.h>
+#include <QtGui/qpolygon.h>
+#include <QtGui/qpainterpath.h>
+#include <QtCore/qmath.h>
 
 class QwtSplineParametrization;
 

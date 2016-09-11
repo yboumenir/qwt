@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,9 +12,9 @@
 
 #include "qwt_global.h"
 #include "qwt_null_paintdevice.h"
-#include <qmetatype.h>
-#include <qimage.h>
-#include <qpixmap.h>
+#include <QtCore/qmetatype.h>
+#include <QtGui/qimage.h>
+#include <QtGui/qpixmap.h>
 
 class QwtPainterCommand;
 

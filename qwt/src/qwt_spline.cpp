@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,7 +10,7 @@
 #include "qwt_spline.h"
 #include "qwt_spline_parametrization.h"
 #include "qwt_math.h"
-#include <qstack.h>
+#include <QtCore/qstack.h>
 
 namespace QwtSplineBezier
 {

@@ -11,7 +11,7 @@
 #include "qwt_plot.h"
 #include "qwt_scale_div.h"
 #include "qwt_picker_machine.h"
-#include <qalgorithms.h>
+#include <QtCore/qalgorithms.h>
 
 static QwtInterval qwtExpandedZoomInterval( double v1, double v2, 
     double minRange, const QwtTransform* transform )

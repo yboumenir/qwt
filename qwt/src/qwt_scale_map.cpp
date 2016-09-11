@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -9,8 +9,8 @@
 
 #include "qwt_scale_map.h"
 #include "qwt_math.h"
-#include <qrect.h>
-#include <qdebug.h>
+#include <QtCore/qrect.h>
+#include <QtCore/qdebug.h>
 
 /*!
   \brief Constructor

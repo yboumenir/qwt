@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -14,9 +14,9 @@
 #include "qwt_text.h"
 #include "qwt_legend_data.h"
 #include "qwt_graphic.h"
-#include <qrect.h>
-#include <qlist.h>
-#include <qmetatype.h>
+#include <QtCore/qrect.h>
+#include <QtCore/qlist.h>
+#include <QtCore/qmetatype.h>
 
 class QPainter;
 class QwtScaleMap;

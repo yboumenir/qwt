@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,11 +12,11 @@
 
 #include "qwt_global.h"
 
-#include <qpoint.h>
-#include <qrect.h>
-#include <qpen.h>
-#include <qline.h>
-#include <qpalette.h>
+#include <QtCore/qpoint.h>
+#include <QtCore/qrect.h>
+#include <QtGui/qpen.h>
+#include <QtCore/qline.h>
+#include <QtGui/qpalette.h>
 
 class QPainter;
 class QBrush;

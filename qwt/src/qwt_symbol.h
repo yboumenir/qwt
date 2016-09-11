@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,7 +11,7 @@
 #define QWT_SYMBOL_H
 
 #include "qwt_global.h"
-#include <qpolygon.h>
+#include <QtGui/qpolygon.h>
 
 class QPainter;
 class QRect;

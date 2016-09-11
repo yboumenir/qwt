@@ -11,7 +11,7 @@
 #include "qwt_scale_map.h"
 #include "qwt_clipper.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
+#include <QtGui/qpainter.h>
 
 static inline bool qwtIsSampleInside( const QwtOHLCSample &sample,
     double tMin, double tMax, double vMin, double vMax )

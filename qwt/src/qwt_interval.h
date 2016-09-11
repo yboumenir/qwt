@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,10 +11,10 @@
 #define QWT_INTERVAL_H
 
 #include "qwt_global.h"
-#include <qmetatype.h>
+#include <QtCore/qmetatype.h>
 
 #ifndef QT_NO_DEBUG_STREAM
-#include <qdebug.h>
+#include <QtCore/qdebug.h>
 #endif
 
 /*!

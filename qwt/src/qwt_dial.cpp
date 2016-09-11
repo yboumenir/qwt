@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -14,15 +14,15 @@
 #include "qwt_scale_map.h"
 #include "qwt_round_scale_draw.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qpalette.h>
-#include <qpixmap.h>
-#include <qevent.h>
-#include <qalgorithms.h>
-#include <qmath.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qapplication.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpalette.h>
+#include <QtGui/qpixmap.h>
+#include <QtGui/qevent.h>
+#include <QtCore/qalgorithms.h>
+#include <QtCore/qmath.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtWidgets/qapplication.h>
 
 static inline double qwtAngleDist( double a1, double a2 )
 {

@@ -9,8 +9,8 @@
 
 #include "qwt_analog_clock.h"
 #include "qwt_round_scale_draw.h"
-#include <qmath.h>
-#include <qlocale.h>
+#include <QtCore/qmath.h>
+#include <QtCore/qlocale.h>
 
 class QwtAnalogClockScaleDraw: public QwtRoundScaleDraw
 {

@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,24 +12,24 @@
 #include "qwt_clipper.h"
 #include "qwt_color_map.h"
 #include "qwt_scale_map.h"
-#include <qwindowdefs.h>
-#include <qwidget.h>
-#include <qframe.h>
-#include <qrect.h>
-#include <qpainter.h>
-#include <qpalette.h>
-#include <qpaintdevice.h>
-#include <qpixmap.h>
-#include <qstyle.h>
-#include <qtextdocument.h>
-#include <qabstracttextdocumentlayout.h>
-#include <qstyleoption.h>
-#include <qpaintengine.h>
-#include <qapplication.h>
-#include <qdesktopwidget.h>
+#include <QtGui/qwindowdefs.h>
+#include <QtWidgets/qwidget.h>
+#include <QtWidgets/qframe.h>
+#include <QtCore/qrect.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpalette.h>
+#include <QtGui/qpaintdevice.h>
+#include <QtGui/qpixmap.h>
+#include <QtWidgets/qstyle.h>
+#include <QtGui/qtextdocument.h>
+#include <QtGui/qabstracttextdocumentlayout.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtGui/qpaintengine.h>
+#include <QtWidgets/qapplication.h>
+#include <QtWidgets/qdesktopwidget.h>
 
 #if QT_VERSION >= 0x050000
-#include <qwindow.h>
+#include <QtGui/qwindow.h>
 #endif
 
 #if QT_VERSION < 0x050000 

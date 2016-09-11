@@ -14,7 +14,7 @@
 #include "qwt_painter.h"
 #include <string.h>
 
-#include <qpainter.h>
+#include <QtGui/qpainter.h>
 
 static inline bool qwtIsHSampleInside( const QwtIntervalSample &sample,
     double xMin, double xMax, double yMin, double yMax )

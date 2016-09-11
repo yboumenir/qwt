@@ -8,8 +8,8 @@
  *****************************************************************************/
 
 #include "qwt_null_paintdevice.h"
-#include <qpaintengine.h>
-#include <qpixmap.h>
+#include <QtGui/qpaintengine.h>
+#include <QtGui/qpixmap.h>
 
 class QwtNullPaintDevice::PrivateData
 {

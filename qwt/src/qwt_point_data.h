@@ -76,7 +76,7 @@ private:
 #include <qwt_series_data.h>
 #include <qwt_plot_curve.h>
 #include <qwt_plot.h>
-#include <qapplication.h>
+#include <QtWidgets/qapplication.h>
 
 class SinusData: public QwtSyntheticPointData
 {

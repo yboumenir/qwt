@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,13 +10,13 @@
 #include "qwt_wheel.h"
 #include "qwt_math.h"
 #include "qwt_painter.h"
-#include <qevent.h>
-#include <qdrawutil.h>
-#include <qpainter.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qapplication.h>
-#include <qdatetime.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qdrawutil.h>
+#include <QtGui/qpainter.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtWidgets/qapplication.h>
+#include <QtCore/qdatetime.h>
 
 #if QT_VERSION < 0x040601
 #define qFabs(x) ::fabs(x)

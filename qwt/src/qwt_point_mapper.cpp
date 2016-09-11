@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,14 +10,14 @@
 #include "qwt_point_mapper.h"
 #include "qwt_scale_map.h"
 #include "qwt_pixel_matrix.h"
-#include <qpolygon.h>
-#include <qimage.h>
-#include <qpen.h>
-#include <qpainter.h>
+#include <QtGui/qpolygon.h>
+#include <QtGui/qimage.h>
+#include <QtGui/qpen.h>
+#include <QtGui/qpainter.h>
 
-#include <qthread.h>
-#include <qfuture.h>
-#include <qtconcurrentrun.h>
+#include <QtCore/qthread.h>
+#include <QtCore/qfuture.h>
+#include <QtConcurrent/qtconcurrentrun.h>
 
 #if !defined(QT_NO_QFUTURE)
 #define QWT_USE_THREADS 0

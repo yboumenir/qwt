@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,9 +11,9 @@
 #include "qwt_scale_div.h"
 #include "qwt_plot.h"
 #include "qwt_painter.h"
-#include <qbitmap.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
+#include <QtGui/qbitmap.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
 
 static QBitmap qwtBorderMask( const QWidget *canvas, const QSize &size )
 {

@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,10 +10,10 @@
 #ifndef QWT_PLOT_MARKER_H
 #define QWT_PLOT_MARKER_H
 
-#include <qpen.h>
-#include <qfont.h>
-#include <qstring.h>
-#include <qbrush.h>
+#include <QtGui/qpen.h>
+#include <QtGui/qfont.h>
+#include <QtCore/qstring.h>
+#include <QtGui/qbrush.h>
 #include "qwt_global.h"
 #include "qwt_plot_item.h"
 

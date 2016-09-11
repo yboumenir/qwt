@@ -9,10 +9,10 @@
 
 #include "qwt_widget_overlay.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qpaintengine.h>
-#include <qimage.h>
-#include <qevent.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpaintengine.h>
+#include <QtGui/qimage.h>
+#include <QtGui/qevent.h>
 
 static QImage::Format qwtMaskImageFormat()
 {

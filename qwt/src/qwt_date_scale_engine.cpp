@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,7 +10,7 @@
 #include "qwt_date_scale_engine.h"
 #include "qwt_math.h"
 #include "qwt_transform.h"
-#include <qdatetime.h>
+#include <QtCore/qdatetime.h>
 #include <limits.h>
 
 static inline double qwtMsecsForType( QwtDate::IntervalType type )

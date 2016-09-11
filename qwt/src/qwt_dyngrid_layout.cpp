@@ -9,8 +9,8 @@
 
 #include "qwt_dyngrid_layout.h"
 #include "qwt_math.h"
-#include <qvector.h>
-#include <qlist.h>
+#include <QtCore/qvector.h>
+#include <QtCore/qlist.h>
 
 class QwtDynGridLayout::PrivateData
 {

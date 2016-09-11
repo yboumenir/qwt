@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,7 +11,7 @@
 #include "qwt_abstract_scale_draw.h"
 #include "qwt_math.h"
 #include "qwt_scale_map.h"
-#include <qevent.h>
+#include <QtGui/qevent.h>
 
 #if QT_VERSION < 0x040601
 #define qFabs(x) ::fabs(x)

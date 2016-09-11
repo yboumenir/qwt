@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,10 +11,10 @@
 #define QWT_TEXT_H
 
 #include "qwt_global.h"
-#include <qstring.h>
-#include <qsize.h>
-#include <qfont.h>
-#include <qmetatype.h>
+#include <QtCore/qstring.h>
+#include <QtCore/qsize.h>
+#include <QtGui/qfont.h>
+#include <QtCore/qmetatype.h>
 
 class QColor;
 class QPen;

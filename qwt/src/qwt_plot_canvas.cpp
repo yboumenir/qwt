@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -21,16 +21,16 @@
 #endif
 
 #if FBO_OPENGL
-#include <qopenglcontext.h>
-#include <qopenglframebufferobject.h>
-#include <qopenglpaintdevice.h>
+#include <QtGui/qopenglcontext.h>
+#include <QtGui/qopenglframebufferobject.h>
+#include <QtGui/qopenglpaintdevice.h>
 
 #if QT_VERSION >= 0x050100
-#include <qoffscreensurface.h>
+#include <QtGui/qoffscreensurface.h>
 typedef QOffscreenSurface QwtPlotCanvasSurfaceGL;
 
 #else
-#include <qwindow.h>
+#include <QtGui/qwindow.h>
 class QwtPlotCanvasSurfaceGL: public QWindow
 {
 public:
@@ -39,17 +39,17 @@ public:
 #endif
 
 #else
-#include <qglframebufferobject.h>
+#include <QtOpenGL/qglframebufferobject.h>
 typedef QGLWidget QwtPlotCanvasSurfaceGL;
 #endif
 
 #endif // !QWT_NO_OPENGL
 
-#include <qpainter.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qpaintengine.h>
-#include <qevent.h>
+#include <QtGui/qpainter.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtGui/qpaintengine.h>
+#include <QtGui/qevent.h>
 
 class QwtPlotCanvas::PrivateData
 {

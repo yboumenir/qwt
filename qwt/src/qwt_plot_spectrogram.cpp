@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,14 +12,14 @@
 #include "qwt_interval.h"
 #include "qwt_scale_map.h"
 #include "qwt_color_map.h"
-#include <qimage.h>
-#include <qpen.h>
-#include <qpainter.h>
-#include <qmath.h>
-#include <qalgorithms.h>
-#include <qthread.h>
-#include <qfuture.h>
-#include <qtconcurrentrun.h>
+#include <QtGui/qimage.h>
+#include <QtGui/qpen.h>
+#include <QtGui/qpainter.h>
+#include <QtCore/qmath.h>
+#include <QtCore/qalgorithms.h>
+#include <QtCore/qthread.h>
+#include <QtCore/qfuture.h>
+#include <QtConcurrent/qtconcurrentrun.h>
 
 #define DEBUG_RENDER 0
 

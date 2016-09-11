@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,8 +13,8 @@
 #include "qwt_global.h"
 #include "qwt_abstract_slider.h"
 #include "qwt_abstract_scale_draw.h"
-#include <qframe.h>
-#include <qpalette.h>
+#include <QtWidgets/qframe.h>
+#include <QtGui/qpalette.h>
 
 class QwtDialNeedle;
 class QwtRoundScaleDraw;

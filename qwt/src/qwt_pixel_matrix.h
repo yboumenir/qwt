@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,8 +11,8 @@
 #define QWT_PIXEL_MATRIX_H
 
 #include "qwt_global.h"
-#include <qbitarray.h>
-#include <qrect.h>
+#include <QtCore/qbitarray.h>
+#include <QtCore/qrect.h>
 
 /*!
   \brief A bit field corresponding to the pixels of a rectangle

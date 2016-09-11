@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,13 +12,13 @@
 #include "qwt_math.h"
 #include "qwt_painter.h"
 #include "qwt_scale_map.h"
-#include <qpainter.h>
-#include <qpalette.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qevent.h>
-#include <qmath.h>
-#include <qapplication.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpalette.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtGui/qevent.h>
+#include <QtCore/qmath.h>
+#include <QtWidgets/qapplication.h>
 
 #if QT_VERSION < 0x040601
 #define qAtan2(y, x) ::atan2(y, x)

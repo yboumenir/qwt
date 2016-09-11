@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -16,12 +16,12 @@
 #include "qwt_legend.h"
 #include "qwt_legend_data.h"
 #include "qwt_plot_canvas.h"
-#include <qmath.h>
-#include <qpainter.h>
-#include <qpointer.h>
-#include <qpaintengine.h>
-#include <qapplication.h>
-#include <qevent.h>
+#include <QtCore/qmath.h>
+#include <QtGui/qpainter.h>
+#include <QtCore/qpointer.h>
+#include <QtGui/qpaintengine.h>
+#include <QtWidgets/qapplication.h>
+#include <QtGui/qevent.h>
 
 static inline void qwtEnableLegendItems( QwtPlot *plot, bool on )
 {

@@ -9,13 +9,13 @@
 
 #include "qwt_graphic.h"
 #include "qwt_painter_command.h"
-#include <qvector.h>
-#include <qpainter.h>
-#include <qpaintengine.h>
-#include <qimage.h>
-#include <qpixmap.h>
-#include <qpainterpath.h>
-#include <qmath.h>
+#include <QtCore/qvector.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpaintengine.h>
+#include <QtGui/qimage.h>
+#include <QtGui/qpixmap.h>
+#include <QtGui/qpainterpath.h>
+#include <QtCore/qmath.h>
 
 static bool qwtHasScalablePen( const QPainter *painter )
 {

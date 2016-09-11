@@ -10,9 +10,9 @@
 #include "qwt_plot_textlabel.h"
 #include "qwt_painter.h"
 #include "qwt_scale_map.h"
-#include <qpainter.h>
-#include <qpixmap.h>
-#include <qmath.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpixmap.h>
+#include <QtCore/qmath.h>
 
 static QRect qwtItemRect( int renderFlags,
     const QRectF &rect, const QSizeF &itemSize ) 

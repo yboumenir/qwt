@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,8 +12,8 @@
 
 #include "qwt_global.h"
 #include "qwt_legend_data.h"
-#include <qframe.h>
-#include <qlist.h>
+#include <QtWidgets/qframe.h>
+#include <QtCore/qlist.h>
 
 class QVariant;
 

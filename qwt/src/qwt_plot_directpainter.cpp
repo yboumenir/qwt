@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,10 +12,10 @@
 #include "qwt_plot.h"
 #include "qwt_plot_canvas.h"
 #include "qwt_plot_seriesitem.h"
-#include <qpainter.h>
-#include <qevent.h>
-#include <qapplication.h>
-#include <qpixmap.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qapplication.h>
+#include <QtGui/qpixmap.h>
 
 static inline void qwtRenderItem( 
     QPainter *painter, const QRect &canvasRect,

@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,14 +10,14 @@
 #include "qwt_symbol.h"
 #include "qwt_painter.h"
 #include "qwt_graphic.h"
-#include <qapplication.h>
-#include <qpainter.h>
-#include <qpainterpath.h>
-#include <qpixmap.h>
-#include <qpaintengine.h>
-#include <qmath.h>
+#include <QtWidgets/qapplication.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpainterpath.h>
+#include <QtGui/qpixmap.h>
+#include <QtGui/qpaintengine.h>
+#include <QtCore/qmath.h>
 #ifndef QWT_NO_SVG
-#include <qsvgrenderer.h>
+#include <QtSvg/qsvgrenderer.h>
 #endif
 
 namespace QwtTriangle

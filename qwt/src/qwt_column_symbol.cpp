@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,8 +10,8 @@
 #include "qwt_column_symbol.h"
 #include "qwt_math.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qpalette.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpalette.h>
 
 static void qwtDrawBox( QPainter *p, const QRectF &rect,
     const QPalette &pal, double lw )

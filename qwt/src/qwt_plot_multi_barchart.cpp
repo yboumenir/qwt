@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,9 +11,9 @@
 #include "qwt_scale_map.h"
 #include "qwt_column_symbol.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qpalette.h>
-#include <qmap.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpalette.h>
+#include <QtCore/qmap.h>
 
 inline static bool qwtIsIncreasing(
     const QwtScaleMap &map, const QVector<double> &values )

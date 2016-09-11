@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -9,7 +9,7 @@
 
 #include "qwt_interval.h"
 #include "qwt_math.h"
-#include <qalgorithms.h>
+#include <QtCore/qalgorithms.h>
 
 /*!
   \brief Normalize the limits of the interval

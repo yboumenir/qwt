@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,8 +10,8 @@
 #include "qwt_scale_engine.h"
 #include "qwt_math.h"
 #include "qwt_scale_map.h"
-#include <qalgorithms.h>
-#include <qmath.h>
+#include <QtCore/qalgorithms.h>
+#include <QtCore/qmath.h>
 #include <float.h>
 #include <limits>
 

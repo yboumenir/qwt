@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -9,8 +9,8 @@
 
 #include "qwt_magnifier.h"
 #include "qwt_math.h"
-#include <qevent.h>
-#include <qwidget.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qwidget.h>
 
 class QwtMagnifier::PrivateData
 {

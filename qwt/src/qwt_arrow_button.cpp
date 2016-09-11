@@ -9,11 +9,11 @@
 
 #include "qwt_arrow_button.h"
 #include "qwt_math.h"
-#include <qpainter.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qevent.h>
-#include <qapplication.h>
+#include <QtGui/qpainter.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qapplication.h>
 
 static const int MaxNum = 3;
 static const int Margin = 2;

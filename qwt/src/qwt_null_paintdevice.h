@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,8 +11,8 @@
 #define QWT_NULL_PAINT_DEVICE_H 1
 
 #include "qwt_global.h"
-#include <qpaintdevice.h>
-#include <qpaintengine.h>
+#include <QtGui/qpaintdevice.h>
+#include <QtGui/qpaintengine.h>
 
 /*!
   \brief A null paint device doing nothing

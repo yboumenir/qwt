@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -11,7 +11,7 @@
 #define _QWT_DATE_H_
 
 #include "qwt_global.h"
-#include <qdatetime.h>
+#include <QtCore/qdatetime.h>
 
 /*!
   \brief A collection of methods around date/time values

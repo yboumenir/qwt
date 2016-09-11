@@ -13,12 +13,12 @@
 #include "qwt_global.h"
 #include "qwt_interval.h"
 #include "qwt_point_3d.h"
-#include <qlist.h>
-#include <qvector.h>
+#include <QtCore/qlist.h>
+#include <QtCore/qvector.h>
 #include <qpoint.h>
-#include <qsize.h>
-#include <qrect.h>
-#include <qpolygon.h>
+#include <QtCore/qsize.h>
+#include <QtCore/qrect.h>
+#include <QtGui/qpolygon.h>
 
 // A couple of definition for Qwt5 compatibility
 

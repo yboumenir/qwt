@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,10 +12,10 @@
 #include "qwt_scale_div.h"
 #include "qwt_scale_map.h"
 #include "qwt_math.h"
-#include <qpen.h>
-#include <qpainter.h>
-#include <qfontmetrics.h>
-#include <qmath.h>
+#include <QtGui/qpen.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qfontmetrics.h>
+#include <QtCore/qmath.h>
 
 class QwtRoundScaleDraw::PrivateData
 {

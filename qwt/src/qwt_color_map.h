@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,8 +12,8 @@
 
 #include "qwt_global.h"
 #include "qwt_interval.h"
-#include <qcolor.h>
-#include <qvector.h>
+#include <QtGui/qcolor.h>
+#include <QtCore/qvector.h>
 
 /*!
   \brief QwtColorMap is used to map values into colors.

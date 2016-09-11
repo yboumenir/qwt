@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,13 +13,13 @@
 #include "qwt_painter.h"
 #include "qwt_symbol.h"
 #include "qwt_graphic.h"
-#include <qpainter.h>
-#include <qdrawutil.h>
-#include <qstyle.h>
-#include <qpen.h>
-#include <qevent.h>
-#include <qstyleoption.h>
-#include <qapplication.h>
+#include <QtGui/qpainter.h>
+#include <QtWidgets/qdrawutil.h>
+#include <QtWidgets/qstyle.h>
+#include <QtGui/qpen.h>
+#include <QtGui/qevent.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtWidgets/qapplication.h>
 
 static const int ButtonFrame = 2;
 static const int Margin = 2;

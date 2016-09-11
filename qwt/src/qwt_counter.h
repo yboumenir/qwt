@@ -11,7 +11,7 @@
 #define QWT_COUNTER_H
 
 #include "qwt_global.h"
-#include <qwidget.h>
+#include <QtWidgets/qwidget.h>
 
 /*!
   \brief The Counter Widget

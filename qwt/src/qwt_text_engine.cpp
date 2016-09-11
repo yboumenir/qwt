@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,14 +10,14 @@
 #include "qwt_text_engine.h"
 #include "qwt_math.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qpixmap.h>
-#include <qimage.h>
-#include <qmap.h>
-#include <qwidget.h>
-#include <qtextobject.h>
-#include <qtextdocument.h>
-#include <qabstracttextdocumentlayout.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpixmap.h>
+#include <QtGui/qimage.h>
+#include <QtCore/qmap.h>
+#include <QtWidgets/qwidget.h>
+#include <QtGui/qtextobject.h>
+#include <QtGui/qtextdocument.h>
+#include <QtGui/qabstracttextdocumentlayout.h>
 
 static QString taggedRichText( const QString &text, int flags )
 {

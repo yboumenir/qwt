@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -15,7 +15,7 @@
 
 #if USE_ELAPSED_TIMER
 
-#include <qelapsedtimer.h>
+#include <QtCore/qelapsedtimer.h>
 
 class QwtSystemClock::PrivateData
 {
@@ -57,7 +57,7 @@ double QwtSystemClock::elapsed() const
     
 #else // !USE_ELAPSED_TIMER
 
-#include <qdatetime.h>
+#include <QtCore/qdatetime.h>
 
 #if !defined(Q_OS_WIN)
 #include <unistd.h>

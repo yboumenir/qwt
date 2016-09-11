@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -14,8 +14,8 @@
 #include "qwt_samples.h"
 #include "qwt_point_3d.h"
 #include "qwt_point_polar.h"
-#include <qvector.h>
-#include <qrect.h>
+#include <QtCore/qvector.h>
+#include <QtCore/qrect.h>
 
 /*!
    \brief Abstract interface for iterating over samples

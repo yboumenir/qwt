@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -17,16 +17,16 @@
 #include "qwt_text.h"
 #include "qwt_text_label.h"
 #include "qwt_math.h"
-#include <qpainter.h>
-#include <qpaintengine.h>
-#include <qtransform.h>
-#include <qprinter.h>
-#include <qprintdialog.h>
-#include <qfiledialog.h>
-#include <qfileinfo.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
-#include <qimagewriter.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpaintengine.h>
+#include <QtGui/qtransform.h>
+#include <QtPrintSupport/qprinter.h>
+#include <QtPrintSupport/qprintdialog.h>
+#include <QtWidgets/qfiledialog.h>
+#include <QtCore/qfileinfo.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
+#include <QtGui/qimagewriter.h>
 #ifndef QWT_NO_SVG
 #ifdef QT_SVG_LIB
 #include <qsvggenerator.h>

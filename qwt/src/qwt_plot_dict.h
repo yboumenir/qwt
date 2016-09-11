@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,7 +13,7 @@
 
 #include "qwt_global.h"
 #include "qwt_plot_item.h"
-#include <qlist.h>
+#include <QtCore/qlist.h>
 
 /// \var typedef QList< QwtPlotItem *> QwtPlotItemList
 /// \brief See QT 4.x assistant documentation for QList

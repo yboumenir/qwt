@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,11 +10,11 @@
 #include "qwt_panner.h"
 #include "qwt_picker.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qpixmap.h>
-#include <qevent.h>
-#include <qcursor.h>
-#include <qbitmap.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpixmap.h>
+#include <QtGui/qevent.h>
+#include <QtGui/qcursor.h>
+#include <QtGui/qbitmap.h>
 
 static QVector<QwtPicker *> qwtActivePickers( QWidget *w )
 {

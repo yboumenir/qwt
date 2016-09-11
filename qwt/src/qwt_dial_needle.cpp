@@ -11,8 +11,8 @@
 #include "qwt_global.h"
 #include "qwt_math.h"
 #include "qwt_painter.h"
-#include <qapplication.h>
-#include <qpainter.h>
+#include <QtWidgets/qapplication.h>
+#include <QtGui/qpainter.h>
 
 #if QT_VERSION < 0x040601
 #define qFastSin(x) qSin(x)

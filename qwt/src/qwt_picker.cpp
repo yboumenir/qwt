@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -12,15 +12,15 @@
 #include "qwt_painter.h"
 #include "qwt_math.h"
 #include "qwt_widget_overlay.h"
-#include <qapplication.h>
-#include <qevent.h>
-#include <qpainter.h>
-#include <qframe.h>
-#include <qcursor.h>
-#include <qbitmap.h>
-#include <qpointer.h>
-#include <qpaintengine.h>
-#include <qmath.h>
+#include <QtWidgets/qapplication.h>
+#include <QtGui/qevent.h>
+#include <QtGui/qpainter.h>
+#include <QtWidgets/qframe.h>
+#include <QtGui/qcursor.h>
+#include <QtGui/qbitmap.h>
+#include <QtCore/qpointer.h>
+#include <QtGui/qpaintengine.h>
+#include <QtCore/qmath.h>
 
 static inline QRegion qwtMaskRegion( const QRect &r, int penWidth )
 {

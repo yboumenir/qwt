@@ -10,14 +10,14 @@
 #include "qwt_plot_rasteritem.h"
 #include "qwt_scale_map.h"
 #include "qwt_painter.h"
-#include <qapplication.h>
-#include <qdesktopwidget.h>
-#include <qpainter.h>
-#include <qpaintengine.h>
-#include <qmath.h>
-#include <qthread.h>
-#include <qfuture.h>
-#include <qtconcurrentrun.h>
+#include <QtWidgets/qapplication.h>
+#include <QtWidgets/qdesktopwidget.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpaintengine.h>
+#include <QtCore/qmath.h>
+#include <QtCore/qthread.h>
+#include <QtCore/qfuture.h>
+#include <QtConcurrent/qtconcurrentrun.h>
 #include <float.h>
 
 class QwtPlotRasterItem::PrivateData

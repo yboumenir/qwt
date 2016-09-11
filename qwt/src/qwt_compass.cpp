@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -13,9 +13,9 @@
 #include "qwt_scale_draw.h"
 #include "qwt_painter.h"
 #include "qwt_dial_needle.h"
-#include <qpainter.h>
-#include <qpixmap.h>
-#include <qevent.h>
+#include <QtGui/qpainter.h>
+#include <QtGui/qpixmap.h>
+#include <QtGui/qevent.h>
 
 /*! 
   \brief Constructor

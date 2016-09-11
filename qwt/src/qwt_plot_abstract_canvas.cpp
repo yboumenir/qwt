@@ -1,4 +1,4 @@
-/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
+﻿/* -*- mode: C++ ; c-file-style: "stroustrup" -*- *****************************
  * Qwt Widget Library
  * Copyright (C) 1997   Josef Wilgen
  * Copyright (C) 2002   Uwe Rathmann
@@ -10,10 +10,10 @@
 #include "qwt_plot_abstract_canvas.h"
 #include "qwt_plot.h"
 #include "qwt_painter.h"
-#include <qpainter.h>
-#include <qdrawutil.h>
-#include <qstyle.h>
-#include <qstyleoption.h>
+#include <QtGui/qpainter.h>
+#include <QtWidgets/qdrawutil.h>
+#include <QtWidgets/qstyle.h>
+#include <QtWidgets/qstyleoption.h>
 
 class QwtStyleSheetRecorder: public QwtNullPaintDevice
 {
