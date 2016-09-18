@@ -8,8 +8,18 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
-set(SRC ${Y}.cpp)
+set(Y refreshtest)
+set(SRC
+circularbuffer.cpp
+circularbuffer.h
+main.cpp
+mainwindow.cpp
+mainwindow.h
+panel.cpp
+panel.h
+plot.cpp
+plot.h
+settings.h)
 add_executable(${Y} ${SRC})
 
 #message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")

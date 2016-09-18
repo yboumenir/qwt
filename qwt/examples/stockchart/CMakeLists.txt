@@ -8,8 +8,17 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
-set(SRC ${Y}.cpp)
+set(Y stockchart)
+set(SRC
+griditem.cpp
+griditem.h
+legend.cpp
+legend.h
+main.cpp
+plot.cpp
+plot.h
+quotefactory.cpp
+quotefactory.h)
 add_executable(${Y} ${SRC})
 
 #message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")

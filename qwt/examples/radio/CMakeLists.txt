@@ -8,8 +8,14 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
-set(SRC ${Y}.cpp)
+set(Y radio)
+set(SRC ${Y}.cpp
+ampfrm.cpp
+ampfrm.h
+mainwindow.cpp
+mainwindow.h
+tunerfrm.cpp
+tunerfrm.h)
 add_executable(${Y} ${SRC})
 
 #message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")

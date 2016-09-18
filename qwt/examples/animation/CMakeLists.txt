@@ -8,8 +8,11 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
-set(SRC ${Y}.cpp)
+set(Y animation)
+set(SRC
+main.cpp
+plot.cpp
+plot.h)
 add_executable(${Y} ${SRC})
 
 #message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")
@@ -21,5 +24,6 @@ add_executable(${Y} ${SRC})
 
 target_link_libraries(${Y} qwt)
 #qt5_use_modules( ${Y} Core Gui Widgets )
+
 
 

@@ -8,8 +8,15 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
-set(SRC ${Y}.cpp)
+set(Y itemediator)
+set(SRC
+editor.cpp
+editor.h
+main.cpp
+plot.cpp
+plot.h
+shapefactory.cpp
+shapefactory.h)
 add_executable(${Y} ${SRC})
 
 #message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")

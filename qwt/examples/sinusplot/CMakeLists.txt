@@ -8,7 +8,7 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
+set(Y sinusplot)
 set(SRC ${Y}.cpp)
 add_executable(${Y} ${SRC})
 

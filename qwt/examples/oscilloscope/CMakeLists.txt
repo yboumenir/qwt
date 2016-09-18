@@ -8,8 +8,23 @@
 #file(GLOB QWT_SRC ${QWT_DIR}*.cpp
 #                  ${QWT_DIR}*.h)
 
-set(Y simpleplot)
-set(SRC ${Y}.cpp)
+set(Y oscilloscope)
+set(SRC
+curvedata.cpp
+curvedata.h
+knob.cpp
+knob.h
+main.cpp
+mainwindow.cpp
+mainwindow.h
+plot.cpp
+plot.h
+samplingthread.cpp
+samplingthread.h
+signaldata.cpp
+signaldata.h
+wheelbox.cpp
+wheelbox.h)
 add_executable(${Y} ${SRC})
 
 #message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")
@@ -21,5 +36,4 @@ add_executable(${Y} ${SRC})
 
 target_link_libraries(${Y} qwt)
 #qt5_use_modules( ${Y} Core Gui Widgets )
-
 

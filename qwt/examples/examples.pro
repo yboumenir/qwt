@@ -1,51 +1,25 @@
-################################################################
-# Qwt Widget Library
-# Copyright (C) 1997   Josef Wilgen
-# Copyright (C) 2002   Uwe Rathmann
-#
-# This library is free software; you can redistribute it and/or
-# modify it under the terms of the Qwt License, Version 1.0
-################################################################
+﻿project(garbage)
+#message(STATUS "source dir: ${CMAKE_SOURCE_DIR}")
+#set(QWT_DIR ${CMAKE_SOURCE_DIR}/src/)
 
-include( $${PWD}/../qwtconfig.pri )
+#include_directories(${QWT_DIR})
+#message(STATUS "QWT_DIR: ${QWT_DIR}")
 
-TEMPLATE = subdirs
+#file(GLOB QWT_SRC ${QWT_DIR}*.cpp
+#                  ${QWT_DIR}*.h)
 
-contains(QWT_CONFIG, QwtPlot) {
-    
-    SUBDIRS += \
-        animation \
-        barchart \
-        cpuplot \
-        curvdemo1   \
-        distrowatch \
-        friedberg \
-        itemeditor \
-        legends \
-        stockchart \
-        simpleplot \
-        sinusplot \
-        realtime \
-        refreshtest \
-        scatterplot \
-        spectrogram \
-        rasterview \
-        tvplot 
+set(Y simpleplot)
+set(SRC ${Y}.cpp)
+add_executable(${Y} ${SRC})
 
-    contains(QWT_CONFIG, QwtWidgets) {
+#message(STATUS "bin dir: ${CMAKE_BINARY_DIR}")
+#if(EXISTS "${CMAKE_BINARY_DIR}/src/libqwt.a")
+#    message("lib qwt was found")
+#else()
+#    message(FATAL_ERROR "lib qwt was not found")
+#endif()
 
-        SUBDIRS += \
-            bode \
-            splineeditor \
-            oscilloscope  
-    }
-}
+target_link_libraries(${Y} qwt)
+#qt5_use_modules( ${Y} Core Gui Widgets )
 
-contains(QWT_CONFIG, QwtWidgets) {
 
-    SUBDIRS += \
-        sysinfo \
-        radio \
-        dials \
-        controls
-}

@@ -1,0 +1,7 @@
+﻿project(garbage)
+set(Y stylesheets)
+set(SRC
+blue.css
+choco.css
+oily.css
+rosy.css)
